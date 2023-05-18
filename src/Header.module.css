@@ -1,0 +1,13 @@
+.section{
+    z-index: 2;
+    background-color: bisque;
+    /* margin-top: 50%; */
+    width: 100px;
+    padding: 10px;
+    border: 5px solid pink;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+}

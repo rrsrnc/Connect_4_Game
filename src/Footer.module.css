@@ -1,0 +1,14 @@
+.footer{
+    background-color: bisque;
+    color: red;
+    width: 50px;
+    padding: 10px;
+    font-weight: 400;
+    border: 4px solid pink;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin:auto;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+}
