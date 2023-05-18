@@ -1,18 +1,10 @@
-#Overview
+
+# Getting Started with Connect-4 game clone
 
 Connect-4 clone is a two player game.
 
-you can play at [Connect_4 Game Demo]([https://github.com/facebook/create-react-app](https://rrsrnc.github.io/Connect_4_Game/))
+you can play at [Connect_4 Game Demo](https://github.com/facebook/create-react-app](https://rrsrnc.github.io/Connect_4_Game/)
 
-
-
-
-
-
-
-# Getting Started with Create React App Overview
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
