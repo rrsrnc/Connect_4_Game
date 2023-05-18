@@ -27,12 +27,12 @@ const Winning=(circle)=>{
     }
     for(var i=0;i<=12;i+=4){
         if(circle[i]  ==circle[i+1] &&
-            circle[i+1]==circle[i+2] && 
-            circle[i+2]==circle[i+3] &&
-            circle[i]!=0 ){
-            const winner=`Player ${circle[i]} wins`
-             document.getElementById("header").innerText = winner
-         }
+        circle[i+1]==circle[i+2] && 
+        circle[i+2]==circle[i+3] &&
+        circle[i]!=0 ){
+        const winner=`Player ${circle[i]} wins`
+         document.getElementById("header").innerText = winner
+     }
     }
 
     for(var i=0;i<4;i++){
