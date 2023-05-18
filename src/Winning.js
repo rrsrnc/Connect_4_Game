@@ -8,14 +8,7 @@ const Winning=(circle)=>{
     ]
     for(var i=0;i<=circle.length-3;i++){
         // console.log(circle[i],circle[i+1],circle[i+2],circle[i+3])
-        if(circle[i]  ==circle[i+1] &&
-           circle[i+1]==circle[i+2] && 
-           circle[i+2]==circle[i+3] &&
-           circle[i]!=0 ){
-           const winner=`Player ${circle[i]} wins`
-            document.getElementById("header").innerText = winner
-        }
-        else if (circle[0]==circle[5] &&
+        if (circle[0]==circle[5] &&
             circle[5]==circle[10] &&
             circle[10]==circle[15] &&
             circle[0]!=0){
@@ -32,6 +25,16 @@ const Winning=(circle)=>{
             }
         
     }
+    for(var i=0;i<=12;i+=4){
+        if(circle[i]  ==circle[i+1] &&
+            circle[i+1]==circle[i+2] && 
+            circle[i+2]==circle[i+3] &&
+            circle[i]!=0 ){
+            const winner=`Player ${circle[i]} wins`
+             document.getElementById("header").innerText = winner
+         }
+    }
+
     for(var i=0;i<4;i++){
         if (circle[i]==circle[i+4] &&
             circle[i+4]==circle[i+8] &&
