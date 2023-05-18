@@ -1,6 +1,10 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Getting Started with Connect-4 game clone
+
+Connect-4 clone is a two player game.
+
+you can play at [Connect_4 Game Demo] (https://rrsrnc.github.io/Connect_4_Game/)
+
 
 ## Available Scripts
 
